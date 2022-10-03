@@ -42,7 +42,7 @@ In addition to completing an internship working with machine learning models, I 
 
     print("Hello World!")
 
-And this helps when writing code that others can iterate on and understand. Downloading a model from hugginface, for instance, can be done in two lines of code that are easily understood.
+And this helps when writing code that others can iterate on and understand. Downloading a model from HuggingFace, for instance, can be done in two lines of code that are easily understood.
 
     model_str = "Helsinki-NLP/opus-mt-en-el"
     model = AutoModelForSeq2SeqLM.from_pretrained(model_str)
